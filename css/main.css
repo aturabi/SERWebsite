@@ -19,13 +19,13 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .cardLeft {
     width: 50%;
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 .cardLeft {
     padding-bottom:40px;
 }
@@ -43,13 +43,13 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .cardRight {
     width: 50%;
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 .cardRight {
     padding-bottom:40px;
 }
@@ -156,14 +156,14 @@ hr {
     padding-right:40px;    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 .orangeHeaders {
     font-size: 50px;
     
 }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .orangeHeaders {
     font-size: 30px;
 }
@@ -179,13 +179,13 @@ hr {
     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 .regText {
     font-size: 20px;    
 }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .regText {
     font-size: 15px;    
 }
@@ -207,14 +207,14 @@ hr {
     padding-bottom:20px;    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 .smallOrangeHeaders {
     font-size: 30px;
     
 }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .smallOrangeHeaders {
     font-size: 20px;
 }
@@ -222,7 +222,7 @@ hr {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 .main {
     padding-left:120px;
     padding-right:120px;
@@ -235,7 +235,7 @@ hr {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 920px) {
 nav ul{
   list-style: none;
   margin: 0 2px;
@@ -252,7 +252,7 @@ nav ul{
     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
 #top, #bottom, #left, #right {
     display:none;
 }
