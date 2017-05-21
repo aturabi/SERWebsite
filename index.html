@@ -1,0 +1,150 @@
+  <!DOCTYPE html>
+
+<head meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SER</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        
+        
+    $(document).ready(function(){
+    $(".button-collapse").sideNav();
+    $('.materialboxed').materialbox();
+    $(".dropdown-button").dropdown();
+        
+      $('.carousel').carousel({fullWidth: true, indicators: true});
+    });
+    autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 3500);
+}
+    </script>
+</head>
+
+
+<body>
+
+    
+    
+<!--- body border ---->
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+    
+
+<div class= "main">
+<!------ banner ------>
+<img class="banner" src="imgs/banner2.png">
+    
+    
+<!------ nav ------>
+<div class="z-depth-4">
+  <nav class="nav-extended red lighten 5">
+    <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Technology<i class="material-icons right">arrow_drop_down</i></a></li>        <li><a href="services.html">Services</a></li>
+        <li><a href="partn.html">People and Partnernships</a></li>
+        <li><a href="forums.html">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tech.html">Technology</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="partn.html">People and Partnernships</a></li>
+        <li><a href="forums.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+ </div>
+<br>
+    
+    
+    
+    
+    
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="tech.html">Technology</a></li>
+    <li class="divider"></li>
+  <li><a href="hydro.html">Hydroponics</a></li>
+    <li class="divider"></li>
+  <li><a href="aqua.html">Aquaculture</a></li>
+</ul>
+    
+    
+    
+      <div class="row">
+          <div class="myCard">
+              <div class="orangeHeaders">Updates</div>
+              <div class="regText">
+                  <li>We are preparing our first workshop series in Mottas, Rio De Janeiro this July!
+                      Stay tuned to sign up (Dates TBD)</li>
+                  <li>We are looking for businesses to sponsor our program. Contact us 
+                      at connect@serbrazil.org </li>
+                  <li>We will be presenting at the International Center in June (Date TBD)</li>
+              </div>
+              
+          </div>
+      </div>
+    
+        <div class="row">
+          <div class="myCard">
+              <div class="orangeHeaders">Vision</div>
+              <div class="regText">By 2050, when the population of the world is projected to reach 9
+                  billion people, we will be forced to find alternative methods to feed the steadily
+                  rising population while combating diseases that arise from poor food choices.
+                  Hydroponics, the art of growing plants without soil, presents itself as an
+                  excellent solution to the impending global food crisis. The word hydroponics is of
+                  Latin origin and literally translates to ‘working water.’ This method of growing
+                  fruits and vegetables has the capacity to change food production in the future.
+                  <br><br>
+
+                  The food we eat provides our bodies with the ‘information’ and materials needed to
+                  function properly. If we don’t receive the correct information, our metabolic
+                  processes suffer and ultimately health declines. Therefore, what we eat is central
+                  to our health. Using Hydroponics and Aquaculture as a vehicle of poverty
+                  alleviation promotes the ideology of food as medicine to combat chronic disease.
+                  Effectively, the food produced in this way can serve as a healing practice. In the
+                  context of rural communities, it can be used as medicine at the community level. 
+              </div>
+            
+            <div class="smallOrangeHeaders">Mottas, Brazil</div>
+
+              <div class="small">
+                <div class="carousel carousel-slider">
+                    <a class="carousel-item" data-caption="Mottas, Brazil">
+                               <img class="scaled" src="imgs/brazil5.JPG">
+                               <text> Mottas, Brazil </text>
+                    </a>
+                    <a class="carousel-item" data-caption="Mottas, Brazil">
+                               <img class="scaled" src="imgs/brazil6.JPG">
+                    </a>
+                    <a class="carousel-item" data-caption="Mottas, Brazil">
+                               <img class="scaled" src="imgs/brazil7.JPG">
+                    </a>
+                </div>
+            </div> <br> <br>
+              
+              
+              
+              
+        </div>
+      </div>
+    
+</div>
+  
+    
+</body>
+
+</html>
